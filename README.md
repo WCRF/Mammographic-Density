@@ -1,11 +1,19 @@
 # Mammographic Density and its association with Sex Steroids, and SNPs of Estrogen Receptors and Aromatase
 
-This repository is created to host the interactive versions of the sunburst and treemap plots created for our WCRF systematic review project on "Association of mammographic density with sex steroids and Single Nucleotide Polymorphisms of estrogen receptor and aromatase"  
+This repository is created to host the interactive versions of the sunburst and treemap plots created for our WCRF systematic review project on "Association of mammographic density(MMD) with sex steroids and Single Nucleotide Polymorphisms of estrogen receptor and aromatase"  
 
-### Postmenopausal women
+### MMD with Sex Steroids in Postmenopausal women
 #### *Fig 4: Association of mammographic density measures with sex steroids in postmenopausal women (green: positive, grey: null, red: negative associations)*
-
 {% include_relative post_menop.html %}
-### Urinary Sex Steroids and Estrogen metabolites in pre- and postmenopausal women
+
+### MMD and Urinary Sex Steroids and Estrogen metabolites in pre- and postmenopausal women
 #### *Fig 6: Association of mammographic density measures with urinary sex steroids and estrogen metabolites in pre- and postmenopausal women (green: positive, grey: null, red: negative associations)*
 {% include_relative mmd_urinary_ss.html %}
+
+### MMD measures with sex steroids in premenopausal women stratified by Menstrual Phases
+#### *Fig 7: Associations of mammographic density measures with sex steroids in premenopausal women (green: positive, grey: null, red: negative associations)*
+{include_relative mmd_ss_premeno_bv_menstrual_phase.html %}
+
+### MMD with Sex Steroids in Premenopausal women stratified by BMI categories
+### *Fig 8: Association of mammographic density measures with sex steroids in premenopausal women stratified by BMI categories (green: positive, grey: null, red: negative associations)*
+{% include_relative mmd_ss_by_BMI.html %}
