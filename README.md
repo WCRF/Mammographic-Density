@@ -13,11 +13,7 @@ curly brace% include_relative mmd_ss_by_BMI.html % curly brace
 
 ### MMD and Urinary Sex Steroids and Estrogen metabolites in pre- and postmenopausal women
 #### *Fig 4: Association of mammographic density measures with urinary sex steroids and estrogen metabolites in pre- and postmenopausal women (green: positive, grey: null, red: negative associations)*
-curly brace % include_relative mmd_urinary_ss.html % curly brace
-
-<figure>
-    <iframe src="https://github.com/WCRF/Mammographic-Density/blob/main/mmd_urinary_ss.html" style="width: 100%; height: 500px;"></iframe>
-</figure>
+{% include_relative mmd_urinary_ss.html %}
 
 ### MMD measures with sex steroids in premenopausal women stratified by Menstrual Phases
 #### *Fig 5: Association of mammographic density measures with sex steroids in postmenopausal women(green: positive, grey: null, red: negative associations)*
