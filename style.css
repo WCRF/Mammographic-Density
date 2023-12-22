@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
+    /* add a background image */
+    background-image: url('https://raw.githubusercontent.com/WCRF/Mammographic-Density/main/MMD.gif'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Optional: Fix the background relative to the viewport */  
 }
 
 /* Updated nav bar styles */
